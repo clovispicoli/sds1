@@ -1,11 +1,11 @@
 
 
 export type RecordsResponse = {
-    content: RecordIem[];
+    content: RecordItem[];
     totalPages: number;
 }
 
-export type RecordIem = {
+export type RecordItem = {
     id: number;
     moment: string;
     name: PerformanceResourceTiming;
